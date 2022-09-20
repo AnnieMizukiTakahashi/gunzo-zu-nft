@@ -1,0 +1,46 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"details": "Provides information about the current execution context, including the sender of the transaction and its data. While these are generally available via msg.sender and msg.data, they should not be accessed in such a direct manner, since when dealing with meta-transactions the account sending and paying for execution may not be the actual sender (as far as an application is concerned). This contract is only required for intermediate, library-like contracts.",
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/GunzoZuYukiKoyano.sol": "Context"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/GunzoZuYukiKoyano.sol": {
+			"keccak256": "0x100bce9a4dcd0fb77ef5bcea33dbc36902957f3992ca98ce248c1c039dfa31fe",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://70362f1e8cf41fa5e18e4ac596b4996a439c628a9931c291ad8afce730ac6501",
+				"dweb:/ipfs/QmbR8ysZK95eBKU4t9g51TuboRAozXN6tcXn3ZapSWzw6A"
+			]
+		}
+	},
+	"version": 1
+}
